@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>AlphaGym</title>
+</head>
+<body class="body_log">
+    <form class="sign" id="signF" name="formuSign">
+        <label>Nombre:</label>
+        <input type="text" name="nombre">
+        <label>Apellidos:</label>
+        <input type="text" name="apellidos">
+        <label>Correo:</label>
+        <input type="email" name="email">
+        <label>Usuario:</label>
+        <input type="text" name="usuario">
+        <label>Contraseña:</label>
+        <input type="password" name="contraseña">
+        <label>Edad:</label>
+        <input type="number" min="12" max="70" class="input_num" name="edad">
+        <label>Peso:</label>
+        <input type="number" min="20" max="300" step="0.5" class="input_num" name="peso">
+        <label>Altura:</label>
+        <input type="number" min="0.5" max="2.5" step="0.01" class="input_num" name="altura">
+        <input type="submit" value="Aceptar" class="signup botonn" id="enviar">
+    </form>
+    <script src="js/signup.js"></script>
+</body>
+</html>
