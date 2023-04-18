@@ -9,25 +9,29 @@
     <title>AlphaGym</title>
 </head>
 <body class="body_log">
-    <form class="sign" id="signF" name="formuSign">
-        <label>Nombre:</label>
-        <input type="text" name="nombre">
-        <label>Apellidos:</label>
-        <input type="text" name="apellidos">
-        <label>Correo:</label>
-        <input type="email" name="email">
-        <label>Usuario:</label>
-        <input type="text" name="usuario">
-        <label>Contraseña:</label>
-        <input type="password" name="contraseña">
-        <label>Edad:</label>
-        <input type="number" min="12" max="70" class="input_num" name="edad">
-        <label>Peso:</label>
-        <input type="number" min="20" max="300" step="0.5" class="input_num" name="peso">
-        <label>Altura:</label>
-        <input type="number" min="0.5" max="2.5" step="0.01" class="input_num" name="altura">
-        <input type="submit" value="Aceptar" class="signup botonn" id="enviar">
-    </form>
+    <div class="sign">
+        <div class="sign_form">
+            <form id="signF" name="formuSign">
+                <label>Nombre:</label>
+                <input type="text" name="nombre" class="input_text">
+                <label>Apellidos:</label>
+                <input type="text" name="apellidos" class="input_text">
+                <label>Correo:</label>
+                <input type="email" name="email" class="input_text">
+                <label>Usuario:</label>
+                <input type="text" name="usuario" class="input_text">
+                <label>Contraseña:</label>
+                <input type="password" name="contraseña" class="input_text">
+                <label>Edad:</label>
+                <input type="number" min="12" max="70" class="input_num" name="edad">
+                <label>Peso:</label>
+                <input type="number" min="20" max="300" step="0.5" class="input_num" name="peso">
+                <label>Altura:</label>
+                <input type="number" min="0.5" max="2.5" step="0.01" class="input_num" name="altura">
+                <input type="submit" value="Aceptar" class="signup botonn" id="enviar">
+            </form>
+        </div>
+    </div>
     <script src="js/signup.js"></script>
 </body>
 </html>
