@@ -315,12 +315,34 @@ button {
 	opacity: 1;
 }
 
+.tienda a {
+    color: #D04511;
+    text-align: center;
+}
+
 /* servicios */
 .img_contenedor {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+ }
+
+ @media (max-width: 778px) {
+    .img_contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+ }
+
+ @media (max-width: 480px) {
+    .img_contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    .img_contenedor img {
+        width: 200px;
+    }
  }
  
  .img_contenedor img {
@@ -335,13 +357,47 @@ button {
      filter: grayscale(0%);
  }
 
+ /* planes */
+ .planes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
 
+ @media (max-width: 678px) {
+    .planes {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .plan {
+        width: 30rem;
+    }
+ }
 
-.footer-index{
+ .plan {
+    text-align: center;
+    border: 0.5px solid gray;
+    width: 25rem;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+ }
+
+ .plan h3 {
+    color: #000;
+    text-align: center;
+ }
+
+ .plan h4 {
+    color: #D04511;
+ }
+
+  /* footer */
+  .footer-index{
     background-color: black;
     color: white;
     text-align: center;
     padding: 20px;
+    margin-top: 4rem;
 }
 
 
