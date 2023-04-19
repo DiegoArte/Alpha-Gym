@@ -334,3 +334,53 @@ button {
  .img_contenedor img:hover{
      filter: grayscale(0%);
  }
+
+
+
+.footer-index{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+ .content-footer{
+    max-width: 800px;
+    margin: 0 auto;
+ }
+
+.footer-contenedor{
+    background-color: black;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-contenedor h3{
+    text-align: center;
+    color: #D04511;
+}
+
+.footer-contenedor p{
+    margin: 0;
+    color: white;
+    font-family: Arial;
+    font-size: medium;
+}
+
+ .pie-pag-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 7em;
+    margin-top: 10px;
+    /*text-align: center;
+    text-justify: auto;*/
+ }
+
+.pie-pag-footer p{
+    margin: 0;
+    color: white;
+    font-size: medium;
+}
