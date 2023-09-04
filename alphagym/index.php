@@ -13,7 +13,7 @@
     <header>
         <div class="barra">
             <nav class="navegacion">
-                <a href="#tienda">Tienda</a>
+                <a href="#tienda">Tienda jaja</a>
                 <a href="#servicios">Servicios</a>
                 <a href="#planes">Planes</a>
                 <a href="#sobre-nosotros">Sobre nosotros</a>
